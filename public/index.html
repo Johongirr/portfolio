@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <a href="/" class="header__logo">
+                J.R
+            </a>
+            <ol class="menu">
+                <li class="menu__list"><a href="#about" class="menu__link menu__link--1"><span class="text-blue menu__text">01. </span> About</a></li>
+                <li class="menu__list"><a href="#experience" class="menu__link menu__link--2"><span class="text-blue menu__text">02. </span> Experience</a></li>
+                <li class="menu__list"><a href="#projects" class="menu__link menu__link--3"><span class="text-blue menu__text">03. </span> Projects</a></li>
+                <li class="menu__list"><a href="#contact" class="menu__link menu__link--4"><span class="text-blue menu__text">04. </span> Contact</a></li>
+                <!-- <li class="menu__list"><a href="#faq" class="menu__link menu__link--5"><span class="text-blue menu__text">05. </span> FAQ</a></li> -->
+                <a href="/resume" target="_blank" class="btn menu__btn menu__link--6">Resume</a>
+            </ol>
+            <div class="hamburger">
+                <div class="hamburger__line"></div>
+                <div class="hamburger__line"></div>
+                <div class="hamburger__line"></div>
+            </div>
+        </nav>
+        <div class="mobile-menu-overlay">
+            <div class="mobile-menu-box">
+                <nav class="mobile-menu">
+                    <ol class="mobile-menu__list">
+                        <li class="mobile-menu__item">
+                            <span class="text-blue mobile-menu__text">01.</span>
+                            <a href="#about" class="mobile-menu__link mobile-menu__tag"> About</a></li>
+                        <li class="mobile-menu__item">
+                            <span class="text-blue mobile-menu__text">02.</span>
+                            <a href="#experience" class="mobile-menu__link mobile-menu__tag"> Experience</a></li>
+                        <li class="mobile-menu__item">
+                            <span class="text-blue mobile-menu__text">03.</span>
+                            <a href="#projects" class="mobile-menu__link mobile-menu__tag"> Projects</a></li>
+                        <li class="mobile-menu__item">
+                            <span class="text-blue mobile-menu__text">04.</span>
+                            <a href="#contact" class="mobile-menu__link mobile-menu__tag"> Contact</a></li>
+                        <!-- <li class="mobile-menu__item">
+                            <span class="text-blue mobile-menu__text">05.</span>
+                            <a href="#faq" class="mobile-menu__link mobile-menu__tag"> FAQ</a></li> -->
+                        <a href="/resume" target="_blank" class="btn mobile-menu__btn mobile-menu__tag">Resume</a>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- side fixed socials and gmail -->
+    <ul class="side-socials">
+        <li class="side-socials__item"><a href="" class="side-socials__link"><svg class="side-socials__svg" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin"><title>LinkedIn</title><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></li>
+        <li class="side-socials__item"><a href="" class="side-socials__link"><svg class="side-socials__svg" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a></li>
+        <!-- <li class="side-socials__item"><a href="" class="side-socials__link">Yout</a></li> -->
+        <div class="side-socials__line"></div>
+    </ul>
+    <a href="mailto:rjohongirmirzohon@gmail.com" class="gmail">rjohongirmirzohon@gmail.com
+        <div class="side-socials__line"></div>
+    </a>
+    <main class="main box">
+        <section class="hero">
+            <header class="hero__header">
+                <h1 class="hero__title-primary">
+                    Hi, my name is
+                </h1>
+                <h2 class="hero__title-secondary">
+                    Johongir Rahimov.
+                </h2>
+                <h3 class="hero__title-tertiary">
+                    I build things for the web
+                </h3>
+                <p class="hero__description">
+                    Hi, I'm a Full-stack web developer and have expertise in building fully-functional, highly-converting web applications. If you have a project idea or have project but needs to be customized contact me
+                </p>
+            </header>
+            <!-- <a href="" class="btn hero__btn">
+                Book a Call
+            </a> -->
+            <a href="#projects" class="btn hero__btn">
+                View My Projects
+            </a>
+        </section>
+        <!-- <h2 class="heading_large gs_reveal">Create amazing <strong>SVG</strong> animations</h2> -->
+        <section class="about gs_reveal" id="about">
+            <header class="about__header">
+                <span class="text-blue about__header-text">01. </span>
+                <h2 class="about__title">About Me</h2>
+                <div class="line"></div>
+            </header>
+            <div class="about__box">
+                <div class="about__text-box">
+                    <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem sit voluptate fugit, ipsa cumque voluptatum facere quaerat nesciunt obcaecati dolorem! Repudiandae perspiciatis corrupti culpa earum rem deleniti dolorum ullam veritatis!</p>
+                    <p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam, quam!</p>
+                    <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, exercitationem.</p>
+
+                    <p class="about__text">Technologies that I've been using</p>
+                    <ul class="skills-list">
+                        <li class="skills-list__item">JavaScript  (ES6+)</li>
+                        <li class="skills-list__item">React</li>
+                        <li class="skills-list__item">Node.JS</li>
+                        <li class="skills-list__item">TypeScript</li>
+                        <li class="skills-list__item">Express</li>
+                        <li class="skills-list__item">Tailwind.CSS</li>
+                    </ul>
+                </div>
+                <figure class="about__img-box">
+                    <div class="about__img-container">
+                        <img src="/images/WIN_20210913_12_09_04_Pro.jpg" alt="my img" class="about__img">
+                    </div>
+                </figure>
+            </div>
+        </section>
+        <section class="experience gs_reveal" id="experience">
+            <header class="experience__header">
+                <span class="text-blue experience__header-text">02. </span>
+                <h2 class="experience__title">Places I've Worked</h2>
+                <div class="line"></div>
+            </header>
+            <h3 class="experience__role">
+                Front-end Developer at <span class="text-blue">UITC</span>
+            </h3>
+            <p class="experience__date">
+                Aug 2021 - Dec 15 2021
+            </p>
+            <ul class="experience-list">
+                <li class="experience-list__item">
+                    I've mentored Junior Developers and young aspiring developers
+                </li>
+                <li class="experience-list__item">
+                    I've consulted on the products
+                </li>
+            </ul>
+        </section>
+        <section class="project gs_reveal" id="projects">
+            <header class="project__header">
+                <span class="text-blue project__header-text">03. </span>
+                <h2 class="project__title">Projects I've Built</h2>
+                <div class="line"></div>
+            </header>
+            <div class="project__box gs_reveal">
+                <figure class="project__img-box project__img-box--1">
+                    <a href="/" class="project__img-link">
+                        <img src="/images/Screenshot (429).png" alt="project img" class="project__img">
+                    </a>
+                </figure>
+                <article class="project__content project__content--1">
+                    <header class="project__sub-header">
+                        <span class="text-blue project__text">Featured Project</span>
+                        <h3 class="project__content-title">
+                            Weather App
+                        </h3>
+                    </header>
+                    <div class="project__text-box">
+                        I've used API provided by OpenWeatherMap which gives me data about given city or country for the 7 days
+                    </div>
+                    <ul class="tech-list">
+                        <li class="tech-list__item">Html</li>
+                        <li class="tech-list__item">Css</li>
+                        <li class="tech-list__item">JavaScript</li>
+                        <li class="tech-list__item">OpenWeather API</li>
+                    </ul>
+                    <div class="project__source-box">
+                        <a href="https://github.com/Johongirr/weather-app-js" class="project__source-code-link">
+                            <svg class="project__svg" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://johongirr.github.io/weather-app-js/" class="project__live-link">
+                            <svg class="project__svg" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                        </a>      
+                    </div>
+                </article>
+            </div>
+            <div class="project__box gs_reveal">
+                <article class="project__content project__content--2">
+                    <header class="project__sub-header">
+                        <span class="text-blue project__text">Featured Project</span>
+                        <h3 class="project__content-title">
+                            CV Generator Application
+                        </h3>
+                    </header>
+                    <div class="project__text-box">
+                        I've built CV Generator for myslef where I could create resume for myself and apply for the jobs
+                    </div>
+                    <ul class="tech-list">
+                        <li class="tech-list__item">Html</li>
+                        <li class="tech-list__item">Css</li>
+                        <li class="tech-list__item">JavaScript</li>
+                        <li class="tech-list__item">React</li>
+                    </ul>
+                    <div class="project__source-box">
+                        <a href="https://github.com/Johongirr/Cv" class="project__source-code-link">
+                            <svg class="project__svg" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://johongirr.github.io/Cv/" class="project__live-link">
+                            <svg class="project__svg" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                        </a>      
+                    </div>
+                </article>
+                <figure class="project__img-box project__img-box--2">
+                    <a href="https://johongirr.github.io/Cv/" class="project__img-link">
+                        <img src="/images/Screenshot (430).png" alt="project img" class="project__img">
+                    </a>
+                </figure>
+            </div>
+            <div class="project__box gs_reveal">
+                <figure class="project__img-box project__img-box--3">
+                    <a href="https://johongirr.github.io/calculator-with-js/" class="project__img-link">
+                        <img src="/images/Screenshot (433).png" alt="project img" class="project__img">
+                    </a>
+                </figure>
+                <article class="project__content project__content--3">
+                    <header class="project__sub-header">
+                        <span class="text-blue project__text">Featured Project</span>
+                        <h3 class="project__content-title">
+                            Calculator Application
+                        </h3>
+                    </header>
+                    <div class="project__text-box">
+                        I've created Caclulator application where It has dark and light mode features and keyboard support
+                    </div>
+                    <ul class="tech-list">
+                        <li class="tech-list__item">Html</li>
+                        <li class="tech-list__item">Css</li>
+                        <li class="tech-list__item">JavaScript</li>
+                        <li class="tech-list__item">OpenWeather API</li>
+                    </ul>
+                    <div class="project__source-box">
+                        <a href="https://github.com/Johongirr/calculator-with-js" class="project__source-code-link">
+                            <svg class="project__svg" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><title>GitHub</title><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                        </a>
+                        <a href="https://johongirr.github.io/calculator-with-js/" class="project__live-link">
+                            <svg class="project__svg" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-external-link"><title>External Link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                        </a>      
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section class="contact gs_reveal" id="contact">
+            <header class="contact__header">
+                <span class="text-blue">04. What's Next</span>
+                <h2 class="contact__title">
+                    Get In Touch
+                </h2>
+                <p class="contact__description">
+                    I'm currently open for freelance work, contract work, or software developer positions. If you are here for one of these, feel free to contact me :)
+                </p>
+                <a href="mailto:rjohongirmirzohon@gmail.com" class="btn contact__btn">Message Me</a>
+            </header>
+            <!-- <form action="" class="form" method="POST">
+                <div class="form__control">
+                    <input type="text" name="name" class="form__input" placeholder="Enter name..." required>
+                </div>
+                <div class="form__control">
+                    <input type="email" name="email" class="form__input" placeholder="Enter your email..." required>
+                </div>
+                <div class="form__control">
+                    <input type="text" name="subject" class="form__input" placeholder="Enter subject..." required>
+                </div>
+                <div>
+                    <textarea class="form__textarea" name="message" id="" cols="30" rows="10" placeholder="Enter message" required></textarea>
+                </div>
+                <button class="btn form__btn">Send Message</button>
+            </form> -->
+
+        </section>
+    </main>
+    <footer class="footer">
+        <small class="footer__copyright">
+          &copy;  2022 Built by Johongir Rahimov
+        </small>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
+    <script src="/js/index.js"></script>
+</body>
+</html>

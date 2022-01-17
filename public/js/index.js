@@ -11,11 +11,11 @@
       setTimeout(() => {
         mobileMenuBox.style.backgroundColor = "rgba(15, 1, 29, .4)";
       }, 150);
-      hamburgerBtn.classList.add("active");
+      body.classList.add("active");
       isOpen = !isOpen;
     } else {
       mobileMenuBox.style.transform = "translateX(1000%)";
-      hamburgerBtn.classList.remove("active");
+      body.classList.remove("active");
 
       isOpen = !isOpen;
     }
@@ -26,6 +26,7 @@
       mobileMenuBox.style.transform = "translateX(1000%)";
       hamburgerBtn.classList.remove("active");
       isOpen = !isOpen;
+      body.classList.remove("active");
     })
   );
 })();

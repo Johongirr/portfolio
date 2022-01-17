@@ -101,20 +101,24 @@ img {
     display: none;
     transition: all .3s;
 }
-.hamburger.active .hamburger__line:nth-child(2) {
+body.active {
+    overflow-y: hidden;
+}
+
+body.active .hamburger .hamburger__line:nth-child(2) {
     transform: translateY(20px);
     transition-duration: .1s;
     opacity: 0;
 }
-.hamburger.active {
+body.active .hamburger {
     transform: rotate(180deg);
 }
-.hamburger.active .hamburger__line:nth-child(3){
+body.active .hamburger .hamburger__line:nth-child(3){
     width:100%;
     margin-top:-7px;
     transform: rotate(45deg) translateX(1px) translateY(1px);
 }
-.hamburger.active .hamburger__line:nth-child(1){
+body.active .hamburger .hamburger__line:nth-child(1){
     margin-bottom: -7px;
     transform: rotate(-45deg);
 }
